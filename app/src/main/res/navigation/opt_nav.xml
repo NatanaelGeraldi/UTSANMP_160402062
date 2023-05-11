@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/opt_nav"
+    app:startDestination="@id/itemHome">
+
+    <fragment
+        android:id="@+id/itemHome"
+        android:name="id.ac.ubaya.informatika.anmp_uts_160420062.view.KostListFragment"
+        android:label="fragment_kost_list"
+        tools:layout="@layout/fragment_kost_list" >
+        <action
+            android:id="@+id/kostListToDetail"
+            app:destination="@id/kostDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/kostDetailFragment"
+        android:name="id.ac.ubaya.informatika.anmp_uts_160420062.view.KostDetailFragment"
+        android:label="fragment_kost_detail"
+        tools:layout="@layout/fragment_kost_detail" >
+        <argument
+            android:name="blok"
+            app:argType="string" />
+        <argument
+            android:name="nama"
+            app:argType="string" />
+        <argument
+            android:name="alamat"
+            app:argType="string" />
+        <argument
+            android:name="notel"
+            app:argType="string" />
+        <argument android:name="namaPemilik"
+            app:argType="string" />
+        <argument
+            android:name="gambar"
+            app:argType="string" />
+        <action
+            android:id="@+id/detailKostToPemilikList"
+            app:destination="@id/itemPemilik" />
+        <action
+            android:id="@+id/action_kostDetailFragment_to_itemHome"
+            app:destination="@id/itemHome" />
+    </fragment>
+    <fragment
+        android:id="@+id/pemilikFragment"
+        android:name="id.ac.ubaya.informatika.anmp_uts_160420062.view.PemilikDetailFragment"
+        android:label="fragment_pemilik"
+        tools:layout="@layout/fragment_pemilik_detail" >
+        <argument
+            android:name="nama"
+            app:argType="string" />
+        <argument android:name="alamat"
+            app:argType="string" />
+        <argument
+            android:name="photo"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_pemilikFragment_to_itemPemilik"
+            app:destination="@id/itemPemilik" />
+    </fragment>
+    <fragment
+        android:id="@+id/itemPemilik"
+        android:name="id.ac.ubaya.informatika.anmp_uts_160420062.view.PemilikListFragment"
+        android:label="fragment_pemilik_list"
+        tools:layout="@layout/fragment_pemilik_list" >
+        <action
+            android:id="@+id/pemilikListToDetailPemilik"
+            app:destination="@id/pemilikFragment" />
+        <action
+            android:id="@+id/action_itemPemilik_to_itemHome"
+            app:destination="@id/itemHome" />
+    </fragment>
+</navigation>

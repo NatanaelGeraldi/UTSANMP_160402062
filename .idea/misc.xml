@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/NMP/ANMP_UTS_160420062/app/src/main/res/drawable-v24/ic_baseline_error_24.xml" value="0.2275" />
+        <entry key="..\:/NMP/ANMP_UTS_160420062/app/src/main/res/drawable/ic_baseline_error_24.xml" value="0.2265" />
+        <entry key="..\:/NMP/ANMP_UTS_160420062/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.2275" />
+        <entry key="..\:/NMP/ANMP_UTS_160420062/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.2275" />
+        <entry key="..\:/NMP/ANMP_UTS_160420062/app/src/main/res/layout/activity_kost.xml" value="0.2" />
+        <entry key="..\:/NMP/ANMP_UTS_160420062/app/src/main/res/layout/activity_main.xml" value="0.15579710144927536" />
+        <entry key="..\:/NMP/ANMP_UTS_160420062/app/src/main/res/layout/fragment_kost.xml" value="0.36142484795829716" />
+        <entry key="..\:/NMP/ANMP_UTS_160420062/app/src/main/res/layout/fragment_kost_adapter.xml" value="0.15579710144927536" />
+        <entry key="..\:/NMP/ANMP_UTS_160420062/app/src/main/res/layout/fragment_kost_detail.xml" value="0.264" />
+        <entry key="..\:/NMP/ANMP_UTS_160420062/app/src/main/res/layout/fragment_kost_list.xml" value="0.264" />
+        <entry key="..\:/NMP/ANMP_UTS_160420062/app/src/main/res/layout/fragment_login.xml" value="0.264" />
+        <entry key="..\:/NMP/ANMP_UTS_160420062/app/src/main/res/layout/fragment_option.xml" value="0.17074275362318841" />
+        <entry key="..\:/NMP/ANMP_UTS_160420062/app/src/main/res/layout/fragment_pemilik.xml" value="0.4" />
+        <entry key="..\:/NMP/ANMP_UTS_160420062/app/src/main/res/layout/fragment_pemilik_detail.xml" value="0.264" />
+        <entry key="..\:/NMP/ANMP_UTS_160420062/app/src/main/res/layout/fragment_pemilik_list.xml" value="0.264" />
+        <entry key="..\:/NMP/ANMP_UTS_160420062/app/src/main/res/layout/fragment_regeister.xml" value="0.15579710144927536" />
+        <entry key="..\:/NMP/ANMP_UTS_160420062/app/src/main/res/layout/fragment_register.xml" value="0.264" />
+        <entry key="..\:/NMP/ANMP_UTS_160420062/app/src/main/res/layout/fragment_register2.xml" value="0.264" />
+        <entry key="..\:/NMP/ANMP_UTS_160420062/app/src/main/res/menu/bottom_menu.xml" value="0.21666666666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.264" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
